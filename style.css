@@ -1,90 +1,99 @@
 * {
-    padding: 0;
-    margin: 0;
-    margin-left: 25px;
-    box-sizing: border-box;
-    /* font-family: 'Archivo Black', sans-serif; */
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 0.03em;
+  padding: 0;
+  margin: 0;
+  margin-left: 25px;
+  box-sizing: border-box;
+  /* font-family: 'Archivo Black', sans-serif; */
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.03em;
 }
 
 body {
-    min-width: 320px;
-    font-family: 'Lato', sans-serif;
-    line-height: 1.6em;
+  min-width: 320px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.6em;
 }
 
 h1 {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    background-color: #F3752B;
-    background-image: linear-gradient(135deg, #F3752B 0%, #77CBB9 46%, #F3752B 100%);
-    letter-spacing: 0.5rem;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: #f3752b;
+  background-image: linear-gradient(
+    135deg,
+    #f3752b 0%,
+    #77cbb9 46%,
+    #f3752b 100%
+  );
+  letter-spacing: 0.5rem;
 }
 
 h3 {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 25px;
-    margin: 30px auto;
-    padding-top: 20px;
-    color: #4a7f74;
-    text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 25px;
+  margin: 30px auto;
+  padding-top: 20px;
+  color: #4a7f74;
+  text-align: center;
 }
 
-ul li{
-    list-style: disc;
-    /* margin-left: 50px; */
-    text-align: center;
-    list-style-position: inside;  
+ul li {
+  list-style: disc;
+  /* margin-left: 50px; */
+  text-align: center;
+  list-style-position: inside;
 }
 
 ul > li::marker {
-    color: #F3752B;
-  }
+  color: #f3752b;
+}
 
-ol li{
-    text-align: center;
-    list-style-type: numeric;
-    list-style-position: inside;   
+ol li {
+  text-align: center;
+  list-style-type: numeric;
+  list-style-position: inside;
 }
 
 ol > li::marker {
-    font-weight: bold;
-    color: #F3752B;
-  }
+  font-weight: bold;
+  color: #f3752b;
+}
 
 .bodytext {
-    line-height: 1.6em;
-    text-align: center;   
+  line-height: 1.6em;
+  text-align: center;
 }
 
 .button {
-    margin: 20px;
-    text-align: center;
-    background-color: #4a7f74;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 900;
-  }
+  margin: 20px;
+  text-align: center;
+  background-color: #4a7f74;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 900;
+}
 
 .container {
-    height: 200px;
-    position: relative;
+  height: 200px;
+  position: relative;
 }
 
 .center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button:hover {
+  color: #f3752b;
 }
